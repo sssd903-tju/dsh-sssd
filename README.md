@@ -1,5 +1,16 @@
 # DSH 小鲸鱼余额挂件（DeepSeek Balance Whale Widget）
 
+> ## 🐋 本仓库为衍生修改版
+>
+> 基于 [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)（MIT，`dsh-whale-widget` v0.2.10）修改，在保留原功能基础上新增：
+>
+> - 🐾 **空闲「贴边爬行」**：一段时间不按压后，鲸鱼沿**屏幕整个边缘**顺时针绕圈爬行；身体**肚子始终贴着所在边缘**、头朝行进方向，转角平滑旋转（速度、空闲秒数、开关均可在菜单调整）
+> - 😊 **按压随机表情**：按压/Q弹/点击时随机切换到表情帧（开心/好奇/睡觉/惊讶等），并保持到下一次按压
+> - 🎨 **多套形象（菜单可切换并记忆）**：方案A（静态+表情）/ 方案B（8 帧爬行动画+表情）/ 方案C（原版静态）；爬行动画帧序可自定义
+> - 📏 **大小档位扩展**：上限调大并重刻度为 1–70（最大约 917px，全程有效无死档）
+>
+> 素材：方案A/B 的鲸鱼精灵图为本仓库作者用 AI 生成的原创素材（含切好的逐帧 PNG，位于 `assets/frames/`）；其余代码逻辑基于原版。
+
 ![DSH 小鲸鱼余额挂件](assets/DSH2.png)
 
 DeepSeek Harness（DSH）Web 界面右下角的常驻余额挂件：小鲸鱼气泡图 + DeepSeek API 余额 + 今日已用 + 每轮对话消耗统计，每次打开界面自动启用。本项目是标准 DSH 插件包，可通过 `dsh plugin` 安装/卸载。
