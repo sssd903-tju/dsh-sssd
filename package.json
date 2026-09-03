@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget.git"
+    "url": "git+https://github.com/sssd903-tju/duh-sssd.git"
   },
   "bugs": {
-    "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget/issues"
+    "url": "https://github.com/sssd903-tju/duh-sssd/issues"
   },
-  "homepage": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget#readme",
+  "homepage": "https://github.com/sssd903-tju/duh-sssd#readme",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
