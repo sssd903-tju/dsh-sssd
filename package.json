@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sssd903-tju/duh-sssd.git"
+    "url": "git+https://github.com/sssd903-tju/dsh-sssd.git"
   },
   "bugs": {
-    "url": "https://github.com/sssd903-tju/duh-sssd/issues"
+    "url": "https://github.com/sssd903-tju/dsh-sssd/issues"
   },
-  "homepage": "https://github.com/sssd903-tju/duh-sssd#readme",
+  "homepage": "https://github.com/sssd903-tju/dsh-sssd#readme",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
